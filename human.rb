@@ -8,6 +8,6 @@ class Human < Animal
   
   def initialize(name, age, hoby)
       super(name, age)
-      self.age = age
+      self.hoby = hoby
   end
 end
